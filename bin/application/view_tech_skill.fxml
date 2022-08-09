@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SkillViewContoller">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="650.0">
+         <children>
+            <TableView fx:id="tableView" prefHeight="570.0" prefWidth="650.0">
+              <columns>
+                <TableColumn fx:id="col_sl" prefWidth="20.0" text="SL" />
+                <TableColumn fx:id="col_id" prefWidth="63.0" text="ID" />
+                  <TableColumn fx:id="col_full_name" prefWidth="72.0" text="Name" />
+                  <TableColumn fx:id="col_email" prefWidth="69.0" text="E-mail" />
+                  <TableColumn fx:id="col_dept" prefWidth="78.0" text="Department" />
+                  <TableColumn fx:id="col_design" text="Designation" />
+                  <TableColumn fx:id="col_skill_name" prefWidth="68.0" text="Skill" />
+                  <TableColumn fx:id="col_level" prefWidth="64.0" text="Level" />
+                  <TableColumn fx:id="col_type" prefWidth="61.0" text="Type" />
+                  <TableColumn fx:id="col_duration" prefWidth="70.0" text="Duration" />
+              </columns>
+            </TableView>
+            <HBox prefHeight="30.0" prefWidth="600.0" spacing="30.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+               </children>
+               <padding>
+                  <Insets left="200.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
